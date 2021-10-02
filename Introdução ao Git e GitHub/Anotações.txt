@@ -1,1 +1,34 @@
-Aulas para aprender a utilizar o Git para versionamento de código.
+# Aulas para aprender a utilizar o Git para versionamento de código.
+
+## Comandos nos terminais:
+
+### Windows
+ - cd: mudar diretórios
+ - dir: listar
+ - mkdir: criar diretóros
+ - del / rmdir: deletar arquivo/diretório
+
+### Unix
+ - cd: mudar diretórios
+ - ls: listar
+ - mkdir: criar diretóros
+ - rm -rf: deletar arquivo/diretório
+
+### Git Bash
+ - git init: iniciar o git em uma pasta
+ - git add: mover arquivos e adicionar ao controle de versionamento
+ - git add *:mover todos os arquivos e adicionar...
+ - git commit -m "escrever descrição do motivo da commit": cria commits
+ - ls -a: listar pastas ocultas
+ - cd ..: retroceder de repositórios
+ - git config --global (unset:adicione esse comando caso queira retirar a config) user.email "nome@email.com": setar email de autor
+ - git config --global (unset:adicione esse comando caso queira retirar a config) user.name "nome": setar nome de autor
+ - git status: fala em que etapa o arquivo está(se precisa fazer algo)
+ - mv (arquivo a ser movido) ./repositorio de destino/: mover arquivos entre pastas
+ - clear ou Ctrl+L: limpar a tela do terminal
+ - echo > nomearquivo.tipo: cria arquivo dentro do diretório.
+ - git config --list: lista as configurações atuais do git.
+ - git remote add origin https://githu...: adiciona pra onde estamos enviando o arquivo
+ - git remote -v: lista os repositórios remotos cadastrados
+ - git push origin master: enviar repositório local para o remoto.
+ - git pull origin master: trazer repositório remoto para o local.
