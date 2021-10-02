@@ -1,4 +1,4 @@
-# Aulas para aprender a utilizar o Git para versionamento de código.
+# Comandos e descricões para utilizar o Git.
 
 ## Comandos nos terminais:
 
