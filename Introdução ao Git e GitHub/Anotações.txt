@@ -32,3 +32,5 @@
  - git remote -v: lista os repositórios remotos cadastrados
  - git push origin master: enviar repositório local para o remoto.
  - git pull origin master: trazer repositório remoto para o local.
+ - git clone: clona repositório para amaquina local.
+	(assim podemos fazer alterações no projeto e depois só enviar as alterações com git commit e git push)
